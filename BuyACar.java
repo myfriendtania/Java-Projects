@@ -37,7 +37,8 @@ public class BuyACar {
 		String  formattedPayment = String.format("%.2f", payment);
 		
 		// Print final results
-		System.out.print( "I am looking for a " + model + " car that I can pay " + formattedPayment + " per month for " + months + " months. My total cost would be " + formattedTotalCosts + ".");
+		System.out.print( "I am looking for a " + model + " car that I can pay " + formattedPayment + 
+		" per month for " + months + " months. My total cost would be " + formattedTotalCosts + ".");
 	
 	}
 	
